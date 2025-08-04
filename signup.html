@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign Up - AgroSmart</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">AgroSmart</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="signup.html">Sign Up</a>
+      <a href="login.html">Log In</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Create Your Account</h1>
+    <p>Join the platform to connect with farmers and workers!</p>
+  </section>
+
+  <section style="padding: 2rem;">
+    <form style="max-width: 500px; margin: auto; background: white; padding: 2rem; border-radius: 10px;">
+      <label for="name">Full Name:</label><br/>
+      <input type="text" id="name" name="name" required><br/><br/>
+      
+      <label for="email">Email:</label><br/>
+      <input type="email" id="email" name="email" required><br/><br/>
+
+      <label for="role">Role:</label><br/>
+      <select id="role" name="role" required>
+        <option value="farmer">Farmer</option>
+        <option value="worker">Worker</option>
+      </select><br/><br/>
+
+      <label for="password">Password:</label><br/>
+      <input type="password" id="password" name="password" required><br/><br/>
+
+      <button class="btn" type="submit">Sign Up</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 AgroSmart. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
