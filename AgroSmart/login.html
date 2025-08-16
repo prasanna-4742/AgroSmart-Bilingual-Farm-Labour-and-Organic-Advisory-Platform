@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Auth - AgroSmart</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="login.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">AgroSmart</div>
+    <nav>
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="about.html" class="nav-link">About Us</a>
+      <a href="contact.html" class="nav-link">Contact Us</a>
+    </nav>
+  </header>
+
+  <!-- Auth Forms -->
+  <section class="auth-section">
+    <h1 id="form-title">Create Your Account</h1>
+    <p id="form-desc">Join the platform to connect with farmers and workers!</p>
+
+    <div class="form-container">
+      <!-- Sign Up Form -->
+      <form id="signup-form">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email-signup">Email:</label>
+        <input type="email" id="email-signup" name="email" required />
+
+        <label for="role">Role:</label>
+        <select id="role" name="role" required>
+          <option value="farmer">Farmer</option>
+          <option value="worker">Worker</option>
+        </select>
+
+        <label for="password-signup">Password:</label>
+        <input type="password" id="password-signup" name="password" required />
+
+        <button class="btn" type="submit">Sign Up</button>
+      </form>
+
+      <!-- Log In Form -->
+      <form id="login-form" class="hidden">
+        <label for="email-login">Email:</label>
+        <input type="email" id="email-login" name="email" required />
+
+        <label for="password-login">Password:</label>
+        <input type="password" id="password-login" name="password" required />
+
+        <button class="btn" type="submit">Log In</button>
+      </form>
+
+      <!-- Toggle Link -->
+      <div class="toggle-link" onclick="toggleForm()">Already have an account? Log In</div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 AgroSmart. All Rights Reserved.</p>
+  </footer>
+
+  <script src="login.js"></script>
+</body>
+</html>

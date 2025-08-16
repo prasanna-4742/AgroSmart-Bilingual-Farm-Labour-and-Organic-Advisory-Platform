@@ -1,0 +1,72 @@
+body {
+  background-image: url(https://t4.ftcdn.net/jpg/08/45/83/87/360_F_845838748_NO5KLuCMKqUmdxz9HSQ8P7WVXRjpXoeA.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(5px);
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.auth-section {
+  padding: 2rem;
+}
+
+#form-title {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+#form-desc {
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.form-container {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.toggle-link {
+  text-align: center;
+  margin-top: 1rem;
+  cursor: pointer;
+  color: #2a6f37;
+  text-decoration: underline;
+}
+
+.hidden {
+  display: none;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button.btn {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #2a6f37;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button.btn:hover {
+  background-color: #245b2f;
+}
